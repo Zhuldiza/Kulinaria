@@ -6,6 +6,7 @@ import javax.validation.constraints.Pattern;
 import java.util.List;
 
 @Entity
+@Table(name="Samsa")
 public class Samsa {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
